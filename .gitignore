@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+
+# next.js build output
+/.next
+/out
+
+# env files
+.env
+.env*.local
+
+# mindshare dashboard runtime store (persisted tweet cache, regenerated at runtime)
+/data
+
+# misc
+.DS_Store
+*.tsbuildinfo
+npm-debug.log*
+next-env.d.ts

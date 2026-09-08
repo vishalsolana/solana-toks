@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import Link from "next/link";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { PaymentButton, PaymentStep } from "@/components/PaymentButton";
@@ -200,6 +201,13 @@ export default function Home() {
             </div>
           </div>
         )}
+
+        <Link
+          href="/mindshare"
+          className="text-xs text-emerald-400/80 hover:text-emerald-300 transition-colors tracking-widest uppercase"
+        >
+          → Robinhood Chain Mindshare Dashboard
+        </Link>
 
         {/* Footer */}
         <p className="text-xs text-slate-700 text-center mt-4">

@@ -1,0 +1,39 @@
+{
+  "_readme": "Starter/demo KOL list for the Robinhood Chain mindshare dashboard. Replace the 'kols' array below with your real list of up to 100 X (Twitter) handles — no '@'. The 'keywords' array controls which tweets from those KOLs count toward mindshare (matched as phrases, case-insensitive).",
+  "chain": {
+    "name": "Robinhood Chain",
+    "keywords": [
+      "Robinhood Chain",
+      "RobinhoodChain",
+      "#RobinhoodChain",
+      "$RHC"
+    ]
+  },
+  "kols": [
+    { "handle": "RobinhoodApp", "name": "Robinhood" },
+    { "handle": "VladTenev", "name": "Vlad Tenev" },
+    { "handle": "solana", "name": "Solana" },
+    { "handle": "aeyakovenko", "name": "Anatoly Yakovenko" },
+    { "handle": "jessepollak", "name": "Jesse Pollak" },
+    { "handle": "brian_armstrong", "name": "Brian Armstrong" },
+    { "handle": "VitalikButerin", "name": "Vitalik Buterin" },
+    { "handle": "cz_binance", "name": "CZ" },
+    { "handle": "APompliano", "name": "Anthony Pompliano" },
+    { "handle": "RaoulGMI", "name": "Raoul Pal" },
+    { "handle": "CryptoHayes", "name": "Arthur Hayes" },
+    { "handle": "balajis", "name": "Balaji Srinivasan" },
+    { "handle": "naval", "name": "Naval" },
+    { "handle": "StaniKulechov", "name": "Stani Kulechov" },
+    { "handle": "0xMert_", "name": "Mert" },
+    { "handle": "iamDCinvestor", "name": "DCinvestor" },
+    { "handle": "WatcherGuru", "name": "Watcher.Guru" },
+    { "handle": "WuBlockchain", "name": "Wu Blockchain" },
+    { "handle": "Cointelegraph", "name": "Cointelegraph" },
+    { "handle": "CoinDesk", "name": "CoinDesk" },
+    { "handle": "TheBlock__", "name": "The Block" },
+    { "handle": "DefiantNews", "name": "The Defiant" },
+    { "handle": "DocumentingBTC", "name": "Documenting Bitcoin" },
+    { "handle": "cryptocobain", "name": "Cobie" },
+    { "handle": "AltcoinDailyio", "name": "Altcoin Daily" }
+  ]
+}
